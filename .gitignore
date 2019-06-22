@@ -1,0 +1,16 @@
+*~
+*#
+bin
+*.user*
+build*
+*.sw?
+tags
+*.autosave
+*DS_Store*
+*.gz
+*.rpm
+*.zip
+*.bak
+*.patch
+.vscode
+*.vim

@@ -17,6 +17,7 @@
 #pragma once
 
 #include <string>
+#include <string_view>
 
 namespace monkey {
 
@@ -75,6 +76,6 @@ namespace monkey {
 
   // Functions ////////////////////////////////////////////////////////////////
 
-  TokenType convertIfKeyword(const std::string &identifier);
+  TokenType convertIfKeyword(const std::string_view &identifier);
 
 }  // namespace monkey

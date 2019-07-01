@@ -30,7 +30,7 @@ namespace monkey {
       {"else", TokenType::ELSE},
       {"return", TokenType::RETURN}};
 
-  TokenType convertIfKeyword(const std::string &identifier)
+  TokenType convertIfKeyword(const std::string_view &identifier)
   {
     auto found = std::find_if(keywords.begin(), keywords.end(), [&](auto &v) {
       return identifier == v.first;
